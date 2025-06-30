@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAFREIRE EMBALAGENS INDUSTRIAIS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; line-height: 1.6; background: #f4f4f4; color: #333; }
+    header { background: #006644; color: white; padding: 20px 0; text-align: center; }
+    header h1 { font-size: 2em; animation: fadeIn 2s ease; }
+
+    nav { background: #004d33; padding: 10px 0; text-align: center; }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover { color: #b2f5ea; }
+
+    .section { padding: 40px 20px; max-width: 1000px; margin: auto; animation: fadeInUp 1s ease; }
+    .section h2 { color: #006644; margin-bottom: 20px; }
+    .section p { margin-bottom: 20px; }
+
+    footer {
+      background: #004d33;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>RAFREIRE EMBALAGENS INDUSTRIAIS</h1>
+  </header>
+
+  <nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section class="section" id="produtos">
+    <h2>Nossos Produtos</h2>
+    <p><strong>Pallets:</strong> Desenvolvidos com materiais de alta qualidade e resistência, com dimensões ISO, ABNT ou personalizadas.</p>
+    <p><strong>Embalagens:</strong> Produzidas sob encomenda conforme suas necessidades industriais de transporte ou armazenagem.</p>
+    <p><strong>Madeira Serrada:</strong> Ripas, vigas e tábuas de pinus com qualidade superior, em medidas padrão ou especiais.</p>
+    <p><strong>Colares de Pallet:</strong> Transforme seu pallet em caixa com colares de madeira ideais para estabilização de cargas.</p>
+    <p><strong>Cortes Especiais:</strong> Desenvolvemos cortes sob medida conforme seu projeto.</p>
+  </section>
+
+  <section class="section" id="sustentabilidade">
+    <h2>Compromisso com a Sustentabilidade</h2>
+    <p>Todas as nossas madeiras são de reflorestamento. Contribuímos para um planeta mais limpo com políticas de sustentabilidade rigorosas e fornecedores criteriosamente selecionados.</p>
+  </section>
+
+  <section class="section" id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco para orçamentos, dúvidas ou mais informações.</p>
+    <p><strong>Telefone:</strong> (22) 99921-4316</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RAFREIRE EMBALAGENS INDUSTRIAIS. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
